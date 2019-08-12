@@ -7,6 +7,46 @@
     <title>Document</title>
     <link rel = "stylesheet" href = "lib/css/style.css">
     <script src = "lib/js/main.js"></script>
+    <style>
+        ul {
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: rgb(34,139,34);
+          z-index: 10;
+          font-family: 'Teko', sans-serif;
+          font-size: 20px;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color:green;
+          background-color: #fff917;
+        }
+        /* li a:hover:not(.active) {
+          background-color: #fff917;
+        } */
+        
+        .active {
+          color: white;
+        }
+        </style>
 </head>
 <body>
     <div class = "navbar">
@@ -14,7 +54,7 @@
             <li><a href = "index.html">Home</a></li>
             <li><a href = "articles.html">Articles</a></li>
             <li><a href = "statistics.html">Statistics</a></li>
-            <li><a href = "help.html">Help Out</a></li>
+            <li style="float:right"><a class="active" href="help.html">Help Out</a></li>
         </ul>
     </div>
 </body>
