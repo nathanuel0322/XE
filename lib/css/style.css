@@ -13,10 +13,10 @@ ul {
     font-size: 14px;
     overflow: hidden;
     display: block;
-    background-color: #333;
+    background-color: #32CD32;
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
 }
 
 .navbar a {
@@ -27,6 +27,7 @@ ul {
     padding: 46px 30px;
     text-decoration: none;
     margin-top: -16px;
+    left: 50%;
 }
 
 .navbar a:hover {
