@@ -99,3 +99,20 @@ a.morelink {
 .morecontent span {
     display: none;
 }
+
+#stats{
+    
+    float: center;
+    position: relative;
+    top: 100px;
+    padding-left: 10px;
+    width:500px;
+    
+}
+p#temp{
+    font-size: 50px;
+    display:flex;
+    justify-content: space-between;
+    
+
+}
