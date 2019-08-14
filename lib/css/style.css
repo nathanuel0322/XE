@@ -10,7 +10,7 @@ ul {
 
 .navbar {
     font-family: Roboto Mono;
-    font-size: 14px;
+    font-size: 16px;
     overflow: hidden;
     display: block;
     background-color: #32CD32;
@@ -82,5 +82,9 @@ ul {
     width: 50%;
     right: -45px;
     z-index: -1;
+}
+
+li.a {
+    bottom: 15px;
 }
 
