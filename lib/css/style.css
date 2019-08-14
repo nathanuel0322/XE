@@ -79,9 +79,10 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 25%;
     right: -45px;
     z-index: -1;
+    height: auto;
 }
 
 
@@ -102,8 +103,17 @@ p#temp{
     font-size: 50px;
     display:flex;
     justify-content: space-between;
-    
-
 }
 
+.WF {
+    position: absolute;
+    left: 16.6%;
+    top: 235px;
+}
+
+.P {
+    position: absolute;
+    right: 16.6%;
+    top: 300px;
+}
 
