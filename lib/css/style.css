@@ -18,6 +18,7 @@ ul {
     top: 0;
     width: 100%;
     z-index: 10;
+    justify-content: space-evenly;
 }
 
 .navbar a {
@@ -29,10 +30,12 @@ ul {
     text-decoration: none;
     margin-top: -16px;
     left: 50%;
+    justify-content: space-evenly;
 }
 
 .navbar a:hover {
     background-color: rgba(255, 255, 255, 0.44);
+    justify-content: space-evenly;
 }
 
 #slideshow { 
@@ -69,10 +72,13 @@ iframe {
     height: 96px;
 }
 
-.donate {
+.labels {
+    position: relative;
+    top: 100px;
+}
+.DN {
     position: relative;
     text-align: center;
-    top: 100px;
     font-size: 50px;
     font-family: 'Blinker', sans-serif;
     text-decoration: underline yellow;
@@ -111,11 +117,6 @@ a.morelink {
     margin-top: 10px;
     padding: 2px;
 }
-
-.morecontent span {
-    display: none;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro|Coda');
 /* font-family: 'Advent Pro', sans-serif; */
 /* font-family: 'Coda', cursive; */
@@ -139,6 +140,7 @@ body {
 
 h1,h2 {
     font-family: 'Coda', cursive;
+    font-size: 18px;
 }
 
 p {
@@ -167,6 +169,33 @@ h3 {
     height:300px;
     width:300px;
 }
+
+#stats{
+    float: center;
+    position: relative;
+    top: 100px;
+    padding-left: 10px;
+    width:500px;
+}
+
+p#temp{
+    font-size: 50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.WF {
+    position: absolute;
+    left: 16.6%;
+    top: 225px;
+}
+
+.P {
+    position: absolute;
+    right: 12.2%;
+    top: 280px;
+}
+
 
 .card{
     width:500px;
@@ -197,6 +226,18 @@ footer{
     align-items: center;
 }
 
+#carbon-chart {
+    padding: 5px;
+    float: left;
+}
+
+#ocean-chart {
+    width: 550px;
+    height: 450px;
+    padding: 5px;
+    float: right;
+}
+
 @media screen and (max-width: 1030px) {
     .card-container {
         display: flex;
@@ -220,7 +261,31 @@ footer{
     }
 }
 
+
 #date{
     display:grid;
     justify-content:space-around;
 }
+
+.WTH {
+    position: relative;
+    top: 200px;
+}
+
+.NYCS {
+    position: relative;
+    top: 225px;
+    left: 200px;
+}
+
+.NYS {
+    position: relative;
+    top: 160px;
+    right: 200px;
+    font-size: 50px;
+    color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
