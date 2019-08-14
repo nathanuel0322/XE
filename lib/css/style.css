@@ -17,6 +17,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 10;
 }
 
 .navbar a {
@@ -68,17 +69,29 @@ iframe {
     height: 96px;
 }
 
-.articles {
-    float: center;
+.donate {
     position: relative;
+    text-align: center;
     top: 100px;
-    padding-left: 10px;
+    font-size: 50px;
+    font-family: 'Blinker', sans-serif;
+    text-decoration: underline yellow;
+}
+.DF {
+    position: relative;
+    top: 145px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    right: -45px;
+    z-index: -1;
+    height: auto;
 }
 
-.article-title {
-    position: relative;
-    top: 35px;
-    left: 10px;
+
+.morecontent span {
+    display: none;
 }
 
 .comment {
