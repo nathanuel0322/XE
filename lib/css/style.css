@@ -69,10 +69,13 @@ iframe {
     height: 96px;
 }
 
-.donate {
+.labels {
+    position: relative;
+    top: 100px;
+}
+.DN {
     position: relative;
     text-align: center;
-    top: 100px;
     font-size: 50px;
     font-family: 'Blinker', sans-serif;
     text-decoration: underline yellow;
@@ -111,11 +114,6 @@ a.morelink {
     margin-top: 10px;
     padding: 2px;
 }
-
-.morecontent span {
-    display: none;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro|Coda');
 /* font-family: 'Advent Pro', sans-serif; */
 /* font-family: 'Coda', cursive; */
@@ -168,6 +166,33 @@ h3 {
     width:300px;
 }
 
+#stats{
+    float: center;
+    position: relative;
+    top: 100px;
+    padding-left: 10px;
+    width:500px;
+}
+
+p#temp{
+    font-size: 50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.WF {
+    position: absolute;
+    left: 16.6%;
+    top: 225px;
+}
+
+.P {
+    position: absolute;
+    right: 12.2%;
+    top: 280px;
+}
+
+
 .card{
     width:500px;
     padding: 25px;
@@ -218,4 +243,26 @@ footer{
     .card img {
         width: 80%;
     }
+}
+
+.WTH {
+    position: relative;
+    top: 200px;
+}
+
+.NYCS {
+    position: relative;
+    top: 225px;
+    left: 200px;
+}
+
+.NYS {
+    position: relative;
+    top: 160px;
+    right: 200px;
+    font-size: 50px;
+    color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
