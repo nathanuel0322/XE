@@ -184,8 +184,13 @@ h3 {
 #stats{
     /* float: center; */
     position: absolute;
-    top: 2600px;
-    padding-left: 10px;
+    top: 2700px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; */
+    left: 435px;
+    width: 800px;
 }
 
 #articles {
@@ -362,5 +367,27 @@ footer{
 
 footer {
     position: relative;
-    bottom: -500px;
+    bottom: -350px;
+}
+
+#Climate {
+    position: absolute;
+    top: 2600px;
+    width: 100%;
+}
+
+#date {
+    position: relative;
+    top: 400px;
+    text-align: center;
+    right: -275px;
+}
+
+svg {
+    position: relative;
+    left: -200px;
+    width: 600px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
