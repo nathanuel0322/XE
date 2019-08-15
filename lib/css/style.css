@@ -185,7 +185,8 @@ h3 {
     float: center;
     position: relative;
     top: 300px;
-    padding-left: 10px;
+    padding-left: 375px;
+    padding-bottom:400px;
     width:500px;
 }
 
@@ -354,4 +355,9 @@ footer{
 
 #headline {
     font-size: 25px;
+}
+
+#date{
+    padding-top:0px;
+    padding-bottom:0px;
 }
