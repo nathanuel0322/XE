@@ -182,11 +182,10 @@ h3 {
 }
 
 #stats{
-    float: center;
-    position: relative;
-    top: 300px;
+    /* float: center; */
+    position: absolute;
+    top: 2600px;
     padding-left: 10px;
-    width:500px;
 }
 
 #articles {
@@ -354,4 +353,14 @@ footer{
 
 #headline {
     font-size: 25px;
+}
+
+#donate {
+    position: relative;
+    top: 350px;
+}
+
+footer {
+    position: relative;
+    bottom: -500px;
 }
