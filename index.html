@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Project C-CAR</title>
     <link rel = "stylesheet" href = "lib/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <script src = "lib/js/main.js" defer></script>
@@ -31,12 +31,16 @@
                 <img src = "./assets/image-five.jfif">
             </div>
         </div>
+        <div class="homeText">
+            <h1 id = "quote"><em>The violence that exists in the human heart is also manifest in the symptoms of illness that we see in the Earth, the water, the air and in living things.</em></h1>
+            <h1 id = "headline">Project C-CAR aims to bring awareness to climate change and the arising issues. All of the articles, data, and charts are there to show you the reality of our environment and how you can make an impact too.</h1>
+        </div>
     </div>
-
     <div id = "articles">
         <div class="main-container">
+            <br /> <br /> <br />
                 <header>
-                    <h1>Articles on Climate Change</h1>
+                    <h1 class = "partTitle">Articles on Climate Change</h1>
                     <p><em>Causes, Effects, and Solutions to save our Earth</em></p>
                 </header>
                 <div class="card-container">
@@ -79,11 +83,10 @@
                                 The new study continues a critical, long-term effort of sea level scientists: narrow uncertainty and improve the accuracy of ice-melt simulations.<br /> <br />
                     
                                 "It ends up being a very important future endeavor for us, model-wise,” Schlegel said. “It’s very important to know how ocean temperature progresses as ice changes.”<br /> <br />
-                        </div>
-                    </div>
+                        </div>                    </div>
                     <div class="card">
                         <img src="assets/2.jpg" alt="">
-                        <h2>#2 - <a href = "https://www.washingtonpost.com/weather/2019/08/01/greenland-ice-sheet-poured-billion-tons-water-into-north-atlantic-july-alone/?noredirect=on#click=https://t.co/5KksacOoDW">Greenland Lost 217 Billion Tons of Ice Last Month</a></h2>
+                            <h2>#2 - <a href = "https://www.washingtonpost.com/weather/2019/08/01/greenland-ice-sheet-poured-billion-tons-water-into-north-atlantic-july-alone/?noredirect=on#click=https://t.co/5KksacOoDW">Greenland Lost 217 Billion Tons of Ice Last Month</a></h2>
                             <div class = "comment more">
                                 A staggering 217 billion tons (197 billion metric tons) of meltwater flowed off of Greenland's ice sheet into theAtlantic Ocean this July. The worst day of melting was July 31, when 11 billion tons (10 billion metric tons) of meltedice poured into the ocean.<br /><br />
       
@@ -100,7 +103,7 @@
                     </div>
                     <div class="card">
                         <img src="assets/3.jpg" alt="">
-                        <h2>#3 - <a href = "https://www.livescience.com/65958-florida-coral-reefs-nitrogen.html">We Finally Know Why Florida's Coral Reefs Are Dying, and It's Not Just Climate Change</a></h2>
+                            <h2>#3 - <a href = "https://www.livescience.com/65958-florida-coral-reefs-nitrogen.html">We Finally Know Why Florida's Coral Reefs Are Dying, and It's Not Just Climate Change</a></h2>
                             <div class = "comment more">
                                 Climate change is killing the world's coral reefs. But it's not the only factor turning them into white, dead husks. According to a new study, all the chemicals humans are dumping into the ocean are making it easier for the hotter weather to do its deadly work.<br /><br />
 
@@ -123,18 +126,30 @@
                                 Coral isn't just a necessary foundation of thriving marine ecosystems, the researchers said in their statement. Reefs also directly contribute $8.5 billion each year and 70,400 jobs to the Florida economy, according to the Florida Keys National Marine Sanctuary.<br /><br />
             
                                 "Citing climate change as the exclusive cause of coral reef demise worldwide misses the critical point that water quality plays a role, too," James Porter, an emeritus professor of ecology at the University of Georgia and a co-author of the paper, said in the statement. "While there is little that communities living near coral reefs can do to stop global warming, there is a lot they can do to reduce nitrogen runoff. Our study shows that the fight to preserve coral reefs requires local, not just global, action."   
-                        </div>    
                     </div>
                 </div>
             </div>
+        </div>
     </div>
  
     <div id = "statistics">
+        <br /> <br /> <br /> <br /> <br /> <br />
+        <h1 class = "partTitle">Statistics and Data</h1>
         <iframe src="https://interactive.guim.co.uk/embed/aus/2017/carbon-embed" frameborder="0" scrolling="no" width="100%" height="500px"></iframe>
         <img src = "assets/carbon-chart.png" id = "carbon-chart">
         <img src = "assets/ocean-chart.png" id = "ocean-chart">
     </div>
-   
+
+    <div id = "donate">
+        <br /> <br /> <br /> <br />
+        <h1 class = "partTitle">Donate or Volunteer - Make an impact!</h1>
+        <h2 style = "padding-top: 10px;"><em>Climate Change is an issue that cannot be solved by a single person, it must be done with everyone! For the sake of the Earth that we all live on, volunteering or donating can help more than you think!</em></h2>
+        <a href = "https://www.worldwildlife.org"><img src = "assets/WWF.jpeg" id = "WWF"></a>
+        <a href = "https://www.edf.org"><img src = "assets/EDF.jpg" id = "EDF"></a>
+        <a href = "https://www.greenpeace.org"><img src = "assets/greenpeace.png" id = "greenpeace"></a> <br />
+        <h1 class = "partTitle" style = "padding-top: 10px;">Make a Difference in your Community</h1>
+    </div>
+
     <footer>
         <p>Copyright © 2019 Xenial Engineering | All rights reserved</p>
     </footer>
@@ -145,7 +160,7 @@
             <li><a href = "#home">   Home   </a></li>
             <li><a href = "#articles">Articles</a></li>
             <li><a href = "#statistics">Statistics</a></li>
-            <li style="float:right"><a class="active" href="help.html">Help Out</a></li>
+            <li><a href = "#donate">Donate & Volunteer</a></li>
         </ul>
     </div>
 </body>
