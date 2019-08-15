@@ -283,13 +283,13 @@ footer{
 
 .NYCS {
     position: relative;
-    top: 225px;
+    top: 25px;
     left: 200px;
 }
 
 .NYS {
     position: relative;
-    top: 160px;
+    top: -45px;
     right: 200px;
     font-size: 50px;
     color: black;
