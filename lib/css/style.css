@@ -1,291 +1,535 @@
 * {
+
     margin: 0px;
+
     padding: 0px;
+
   }
+
   
+
 ul {
+
     text-decoration: none;
+
     list-style-type: none;
+
 }
+
+
 
 .navbar {
+
     font-family: Roboto Mono;
+
     font-size: 16px;
+
     overflow: hidden;
+
     display: block;
+
     background-color: #32CD32;
+
     position: fixed;
+
     top: 0;
+
     width: 100%;
+
     z-index: 10;
-    justify-content: space-evenly;
+
 }
+
+
 
 .navbar a {
+
     float: left;
+
     display: block;
+
     color: whitesmoke;
+
     align-content: center;
+
     padding: 46px 30px;
+
     text-decoration: none;
+
     margin-top: -16px;
+
     left: 50%;
-    justify-content: space-evenly;
+
 }
+
+
 
 .navbar a:hover {
+
     background-color: rgba(255, 255, 255, 0.44);
-    justify-content: space-evenly;
+
 }
+
+
 
 #slideshow { 
+
     float: left;
+
     margin: 100px auto; 
+
     position: relative; 
+
     width: 1240px; 
+
     height: 440px; 
+
     padding: 10px; 
+
     box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+
 }
+
+
 
 #slideshow > div { 
+
     position: absolute; 
+
     top: 10px; 
+
     left: 10px; 
+
     right: 10px; 
+
     bottom: 10px; 
+
 }
+
+
 
 #slideshow img {
+
     /* width: 1240px; */
+
     width: 100%;
+
     height: 440px;
+
 }
+
+
 
 iframe {
+
     padding: 10px;
+
 }
+
+
 
 #logo {
+
     float: left;
+
     width: 150px;
+
     height: 96px;
+
 }
 
+
+
 .labels {
+
     position: relative;
+
     top: 100px;
+
 }
+
 .DN {
+
     position: relative;
+
     text-align: center;
+
     font-size: 50px;
+
     font-family: 'Blinker', sans-serif;
+
     text-decoration: underline yellow;
+
 }
+
 .DF {
+
     position: relative;
+
     top: 145px;
+
     display: block;
+
     margin-left: auto;
+
     margin-right: auto;
+
     width: 25%;
+
     right: -45px;
+
     z-index: -1;
+
     height: auto;
+
 }
+
+
+
 
 
 .morecontent span {
+
     display: none;
+
 }
+
+
 
 .comment {
+
     position: none;
+
     padding: 5px;
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
+
+
 a.morelink {
+
 	text-decoration:none;
+
     outline: none;
+
     float: right;
+
     border-style: solid;
+
     border-color: black;
+
     background-color: limegreen;
+
     color: white;
+
     margin-top: 10px;
+
     padding: 2px;
+
 }
+
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro|Coda');
+
 /* font-family: 'Advent Pro', sans-serif; */
+
 /* font-family: 'Coda', cursive; */
+
+
 
 /* https://coolors.co/eae8ff-d8d5db-adacb5-2d3142-b0d7ff */
 
+
+
 :root{
+
     --primary:#EAE8FF;
+
     --primaryDark:#2D3142;
+
     --light:#D8D5DB;
+
     --accent:#B0D7FF;
+
 }
+
+
 
 body {
+
     margin: 0;
+
     text-align: center;
+
     display:flex;
+
     flex-direction: column;
+
     height:100vh;
+
 }
+
+
 
 h1,h2 {
+
     font-family: 'Coda', cursive;
-    font-size: 18px;
+
 }
+
+
 
 p {
+
     font-family: 'Advent Pro', sans-serif;
+
 }
+
+
 
 header h1{
+
     font-size: 40px;
+
 }
+
+
 
 header p{
+
     font-size: 25px;
+
 }
+
+
 
 h3 {
+
     font-size: 23px;
+
 }
+
+
 
 .card-container{
+
     display: flex;
+
     flex-direction: row;
+
     justify-content: space-evenly;
+
 }
+
+
 
 .card img{
+
     height:300px;
+
     width:300px;
+
 }
+
+
 
 #stats{
+
     float: center;
+
     position: relative;
+
     top: 100px;
+
     padding-left: 10px;
+
     width:500px;
+
 }
+
+
 
 p#temp{
+
     font-size: 50px;
+
     display:flex;
+
     justify-content: space-between;
+
 }
+
+
 
 .WF {
+
     position: absolute;
+
     left: 16.6%;
+
     top: 225px;
+
 }
 
+
+
 .P {
+
     position: absolute;
+
     right: 12.2%;
+
     top: 280px;
+
 }
+
+
+
 
 
 .card{
+
     width:500px;
+
     padding: 25px;
+
     border-left: solid 1px var(--accent);
+
     border-right: solid 1px var(--accent);
+
     border-top:solid 1px transparent;
+
     border-bottom:solid 1px transparent;
+
     margin-left: 15px;
+
     margin-right: 15px;
+
     box-sizing: border-box;
+
     transition: border 500ms;
+
 }
+
+
 
 .card:hover{
+
     border-top:solid 1px var(--accent);
+
     border-bottom:solid 1px var(--accent);
+
 }
+
+
 
 footer{
+
     margin-top: 50px;
+
     background-color: var(--primary);
+
     color: var(--primaryDark);
+
     width: 100%;
+
     flex: 1;
+
     display:flex;
+
     justify-content: center;
+
     align-items: center;
+
 }
 
-#carbon-chart {
-    padding: 5px;
-    float: left;
-}
 
-#ocean-chart {
-    width: 550px;
-    height: 450px;
-    padding: 5px;
-    float: right;
-}
 
 @media screen and (max-width: 1030px) {
+
     .card-container {
+
         display: flex;
+
         flex-direction: column;
+
         align-items: center;
+
     }
+
+
 
     footer {
+
         flex: 1 0 auto;
+
     }
+
 }
+
+
 
 @media (max-width: 530px) {
+
     .card {
+
         width: 80%;
+
         height: initial;
+
     }
+
+
 
     .card img {
+
         width: 80%;
+
     }
+
 }
 
 
-#date{
-    display:grid;
-    justify-content:space-around;
-}
 
 .WTH {
+
     position: relative;
+
     top: 200px;
+
 }
+
+
 
 .NYCS {
+
     position: relative;
+
     top: 225px;
+
     left: 200px;
+
 }
+
+
 
 .NYS {
-    position: relative;
-    top: 160px;
-    right: 275px;
-    font-size: 50px;
-    color: black;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-}
 
+    position: relative;
+
+    top: 160px;
+
+    right: 200px;
+
+    font-size: 50px;
+
+    color: black;
+
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+
+  -webkit-text-stroke-width: 1px;
+
+  -webkit-text-stroke-color: black;
+
+}
