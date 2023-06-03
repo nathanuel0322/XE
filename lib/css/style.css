@@ -2,6 +2,12 @@
     margin: 0px;
     padding: 0px;
   }
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
   
 ul {
     text-decoration: none;
